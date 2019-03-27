@@ -611,4 +611,5 @@
     <!-- Last Contact Ct Compact Hint -->
     <string name="last_contact_hint_ctcompact_title">Letzter Kontakt des CT Compact</string>
     <string name="last_contact_hint_ctcompact_text">Der Letzte Kontakt des CT Compact zeigt den Standort an, an dem der Sauger das letzte Mal mit dem Strom verbunden war.</string>
+    <string name="last_contact_hint_ctcompact_text">This will be a new string.I have to wait 2 minutesFingers crossed.</string>
 </resources>
