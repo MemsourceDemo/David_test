@@ -1,0 +1,614 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Generic texts -->
+    <string name="generic_number_percentage">%1$d%%</string>
+    <string name="generic_number_temperature">%1$d°C</string>
+    <string name="generic_number_voltage">%1$dV</string>
+    <string name="generic_number_capacity">%1$dmAh</string>
+    <string name="generic_number_file_size">%1$.2f MB</string>
+    <string name="generic_ok" tools:ignore="ButtonCase,Typos">Ok</string>
+    <string name="generic_cancel">Abbrechen</string>
+    <string name="generic_remove">Entfernen</string>
+
+    <string name="start_scan_for_ble_devices">Drücken Sie die Verbindungstaste an Ihrem Bluetooth®-fähigen Festool Werkzeug drei Sekunden lang bis die Bluetooth® Anzeige blau pulsiert.</string>
+    <string name="scan_qr_code_description">Scannen Sie den QR-Code auf der Garantiekarte Ihres Werkzeugs.</string>
+    <string name="bluetooth">Bluetooth®</string>
+    <string name="manual_input">Manuelle Eingabe</string>
+    <string name="or">oder</string>
+    <string name="speichern">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="menu_option_flash">Blitz</string>
+    <string name="menu_option_help">Hilfe</string>
+
+    <!-- Status Messages the BottomSheet Header displays -->
+    <string name="bluetooth_tool_found_nr_devices">Gefundene Werkzeuge: %1$d</string>
+    <string name="bluetooth_tool_scan_started">Suche Bluetooth® Werkzeug…</string>
+    <string name="bluetooth_tool_disabled">Bluetooth® ausgeschaltet…</string>
+    <string name="bluetooth_tool_location_permission_missing">Standortzugriff erforderlich…</string>
+    <string name="bluetooth_tool_bl_not_supported">Bluetooth® nicht unterstützt…</string>
+
+    <!-- Bluetooth® disabled-->
+    <string name="dialog_blutooth_disabled__title">Bluetooth® ausgeschaltet</string>
+    <string name="dialog_bluetooth_disabled__text">Bei aktiviertem Bluetooth® kann die App mit Bluetooth®-fähigen Festool Werkzeugen kommunizieren. Aktivieren Sie Bluetooth® in den Einstellungen.</string>
+    <!-- ble tool found -->
+    <string name="dialog_tool_has_bluetooth__title">Werkzeug hat Bluetooth®</string>
+    <string name="dialog_tool_has_bluetooth__text">Drücken Sie die Verbindungstaste an Ihrem Bluetooth®-fähigen Festool Werkzeug drei Sekunden lang, bis die Bluetooth® Anzeige blau pulsiert.</string>
+    <string name="dialog_tool_has_bluetooth_bluetooth_off">Schließen Sie diesen Dialog, aktivieren Sie Bluetooth® und wiederholen Sie den Vorgang oder überspringen Sie das Koppeln.</string>
+    <string name="dialog_tool_has_bluetooth__skip_connect">Koppeln Überspringen</string>
+    <!-- SAI tool not found -->
+    <string name="dialog_tool_not_found__text">Leider kann dieses Werkzeug nicht zur Garantie all-inclusive registriert werden.</string>
+    <string name="dialog_could_not_fetch_product_data">Es konnten keine Produktdaten abgerufen werden. Bitte versuchen Sie es später erneut.</string>
+    <!-- no nearby devices found -->
+    <string name="dialog_nonearbydevices__title">Es ist kein Bluetooth®-fähiges Werkzeug in der Nähe zum Koppeln bereit.</string>
+    <string name="dialog_nonearbydevices__text">Schalten Sie Bluetooth® ein, damit das Smartphone sich mit Ihrem Bluetooth®-fähigen Festool Werkzeug koppeln kann.</string>
+    <!-- Dialog Manual Input -->
+    <string name="dialog_manualinput__title">Manuelle Eingabe</string>
+    <string name="dialog_manualinput__partnr_hint_text">Teilenummer</string>
+    <string name="dialog_manualinput_serialnr_hint_text">Seriennummer</string>
+    <string name="dialog_manualinput_partnr_error">Ungültige Teilenummer</string>
+    <string name="dialog_manualinput_serialnr_error">Ungültige Seriennummer</string>
+    <!-- BLE Missing -->
+    <string name="dialog_bluethooth_missing__title">Nicht Unterstützt</string>
+    <string name="dialog_bluethooth_missing__text">Diesem Werkzeug fehlt die Bluetooth® Unterstützung.</string>
+    <!-- BLE Missing -->
+    <string name="dialog_ble_missing__title">Nicht Unterstützt</string>
+    <string name="dialog_ble_missing__text">Dieses Werkzeug unterstützt kein Bluetooth® Low Energy.</string>
+    <string name="tooladded_tool_added_successfully">Ihr Werkzeug wurde erfolgreich der App hinzugefügt.</string>
+    <string name="toolsadded_add_tool">Weiteres Werkzeug hinzufügen</string>
+    <string name="tooladded_tool_added_successfully_info">Für dieses Werkzeug wurde keine Garantie all-inclusive Registrierung durchgeführt.</string>
+
+    <string name="tools_empty__empty_directory">Keine Werkzeuge</string>
+    <string name="tools_empty__description">Drücken Sie auf das Plus, um Ihr Werkzeug und Zubehör der App hinzuzufügen.</string>
+
+    <string name="tools_title_anonymous">Bitte anmelden</string>
+    <string name="tools_description_anonymous">Um Ihre Werkzeuge der App hinzuzufügen, wird ein MyFestool-Konto benötigt.</string>
+    <string name="tools_button_login">Anmelden oder Konto erstellen</string>
+    <!-- My Tools-->
+    <string name="tools__all_tools">Alle Werkzeuge</string>
+    <string name="tools__waranty">Garantiezeit</string>
+    <string name="tools__dealer">Händler</string>
+    <string name="tools__withbluetooth">Mit Bluetooth®</string>
+    <string name="tools__allwithbluetooth">Alle mit Bluetooth®</string>
+    <string name="tools__updates">Updates</string>
+    <string name="tools__battery_level_and_status">Akkupack Füllstand und Status</string>
+    <string name="tools__charge_status">Status</string>
+    <string name="tools__battery_charging_cycle">Akkupack Ladezyklen</string>
+    <string name="tools__last_contact">Letzter Kontakt</string>
+    <string name="tools__notifications">Benachrichtigungen</string>
+    <!-- My Tools list -->
+    <string name="tools_list_section_title_without_category">Ohne Kategorie</string>
+    <string name="tools_list_detail_master_product_id_text">T-Nr.: %1$s</string>
+    <string name="tools_list_detail_serial_number_text">S-Nr.: %1$s</string>
+    <string name="tools_list_section_title_warranty_less_than_60_days">Weniger als 60 Tage</string>
+    <string name="tools_list_section_title_warranty_this_year">Dieses Jahr</string>
+    <string name="tools_list_section_title_warranty_until_year">Bis %1$d</string>
+    <string name="tools_list_section_title_warranty_expired">Garantie abgelaufen</string>
+    <string name="tools_list_section_title_bluetooth_in_range">Erreichbar</string>
+    <string name="tools_list_section_title_bluetooth_out_of_range">Nicht erreichbar</string>
+    <string name="tools_list_section_title_bluetooth_not_bonded">Nicht gekoppelt</string>
+    <string name="tools_list_section_title_bluetooth_update_available">Update verfügbar</string>
+    <string name="tools_list_section_title_bluetooth_update_not_necessary">Kein Update nötig</string>
+    <string name="tools_list_section_title_charge_cycles_more_than">Mehr als %1$d</string>
+    <string name="tools_list_section_title_charge_cycles_less_than">Weniger als %1$d</string>
+    <string name="tools_list_section_title_info">Info</string>
+    <string name="tools_list_info_item_title_service">Festool SERVICE</string>
+    <string name="tools_list_info_item_title_bluetooth_pairing">Bluetooth® Pairing (CT-Absaugmobil)</string>
+    <string name="tools_list_info_item_title_battery_handling_tips">Tipps zum Umgang mit Akkupacks</string>
+    <string name="tools_list_info_item_title_battery_correct_charging">Akkupacks richtig laden</string>
+    <string name="tools_list_popup_menu_blink">Blinken</string>
+    <!-- Bottom Navigation-->
+    <string name="bottomnavigation_option_tools">Werkzeuge</string>
+    <string name="bottomnavigation_option_service">Service</string>
+    <string name="bottomnavigation_option_dealer_search">Händler</string>
+    <string name="bottomnavigation_option_apps">Apps</string>
+    <string name="bottomnavigation_option_profile">Profil</string>
+
+    <!-- error messages -->
+    <string name="generic_error_title">Fehler</string>
+    <string name="generic_error_message_login">Beim Anmelden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.</string>
+    <string name="generic_error_message_loading_failed">Beim Laden der Daten ist ein Fehler aufgetreten. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.</string>
+    <string name="generic_error_message_upload_failed">Beim Speichern der Daten ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind und versuchen Sie es erneut.</string>
+    <string name="generic_error_message_delete_failed">Beim Löschen der Daten ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind und versuchen Sie es erneut. </string>
+    <string name="generic_error_message_operation_failed">Bei der Durchführung ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind und versuchen Sie es erneut. </string>
+
+    <string name="error_button_confirm_not_valid_tool">Verstanden</string>
+    <string name="error_message_not_valid_tool">Es handelt sich hierbei nicht um ein gültiges Werkzeug von Festool.</string>
+
+    <string name="error_button_confirm_already_registered">Verstanden</string>
+    <string name="scanner_main_alreadyAddedToolDialog_message">Ihr Werkzeug wurde bereits der App hinzugefügt.</string>
+
+    <!-- localization -->
+    <string name="localization_title">Willkommen!</string>
+    <string name="localization_message">Vielen Dank, dass Sie die Festool Work App nutzen.</string>
+    <string name="localization_cultures_spinner_title">Land und Sprache auswählen</string>
+    <string name="localization_confirm_button_title">Fortfahren</string>
+
+    <!-- login -->
+    <string name="login_title">Nutzen Sie die App mit einem MyFestool-Konto</string>
+    <string name="login_message">Um Ihre Werkzeuge in der App speichern zu können, ist ein MyFestool-Konto notwendig. Der Servicebereich und das Händlerverzeichnis lassen sich ohne Konto nutzen.</string>
+    <string name="login_login_button_title">Login</string>
+    <string name="login_no_login_button_title">Ohne Login fortfahren</string>
+    <string name="login_register_button_title">Konto kostenlos erstellen</string>
+    <string name="login_firebase_data_migration_dialog_title">Lokale Daten übernehmen?</string>
+    <string name="login_firebase_data_migration_dialog_message">Möchten Sie die lokal gespeicherten Daten übernehmen und die online Vorhandenen ersetzen?</string>
+    <string name="login_firebase_data_migration_dialog_positive_button">Übernehmen</string>
+    <string name="login_firebase_data_migration_dialog_negative_button">Nein</string>
+    <string name="login_account_locale_overwritten_dialog_title">Spracheinstellungen geändert</string>
+    <string name="login_account_locale_overwritten_dialog_message">Ihre Spracheinstellungen wurden anhand Ihres MyFestool-Kontos geändert (%1$s).</string>
+    <string name="login_locale_not_supported_message">Die Sprache Ihres Kontos wird aktuell leider noch nicht unterstützt.</string>
+    <string name="profile_myprofile">Mein Profil</string>
+    <string name="profile_myfestool">MyFestool</string>
+    <string name="profile_login">Anmelden</string>
+    <string name="profile_popup_menu_perform_logout">Abmelden</string>
+    <string name="profile_popup_menu_open_user_account">Benutzerkonto öffnen</string>
+    <string name="profile_login_info">Melden Sie sich mit Ihrem MyFestool-Konto an und sehen Sie Ihre Werkzeuge in der App.</string>
+    <string name="profile_login_title">MyFestool</string>
+    <string name="profile_information">Informationen</string>
+    <string name="profile_contact">Kontakt</string>
+    <string name="profile_imprint">Impressum</string>
+    <string name="profile_privacy">Privatsphäre</string>
+    <string name="profile_terms_of_service">Servicebedingungen</string>
+    <string name="profile_terms_of_use">Nutzungsbedingungen</string>
+    <string name="profile_open_source_libraries">Drittanbieterlizenzen</string>
+    <string name="profile_tracking_heading">Analysedaten senden</string>
+    <string name="profile_send_tracking">Erlauben Sie der App täglich automatisch Diagnose- und Nutzungsdaten zu senden. Die Änderung wird erst nach dem Neustart der App wirksam.</string>
+    <string name="registration_confirmation_title">Die Bestätigungs-E-Mail wurde versandt</string>
+    <string name="registration_confirmation_message">Bitte folgen Sie dem Bestätigungslink in der Ihnen zugesandten E-Mail, um die Registrierung abzuschließen.\n\nWurde der Bestätigungslink auf einem anderen Gerät aufgerufen, kehren Sie zurück zum Login und melden sich an.</string>
+
+    <!-- Service -->
+    <string name="service_contactdata">Kontaktdaten</string>
+    <string name="service_contactdata_title">Wir helfen Ihnen gerne</string>
+    <string name="service_contactdata_description">Haben Sie Fragen oder Anregungen zur Anwendung, zu Ersatzteilen, Reparaturen und Garantie? Kontaktieren Sie uns!</string>
+    <string name="service_contactdata_call_or_mail">Festool Anrufen oder E-MAILEN</string>
+    <string name="service_contactformular">Kontaktformular</string>
+    <string name="service_contactformular_title">Kontaktieren Sie uns direkt</string>
+    <string name="service_contactformular_description">Schicken Sie uns schnell und einfach eine Nachricht über unser Kontaktformular.</string>
+    <string name="service_contactformular_call">Kontaktformular aufrufen</string>
+    <string name="service_allinclusive">Garantie all-inclusive*</string>
+    <string name="service_allinclusive_title">Unser Garantiepaket für alle neuen Werkzeuge</string>
+    <string name="service_allinclusive_description">Rundum-Reparatur gratis.**\nDiebstahl ersetzt.\nOriginalteil garantiert.\nGeld zurück.</string>
+    <string name="service_allinclusive_add_tool">Werkzeug registrieren</string>
+    <string name="service_repair">Rundum-Reparatur</string>
+    <string name="service_repair_title">Ihr Werkzeug repariert von Festool.</string>
+    <string name="service_repair_description">Schnelle und einfache Beauftragung\nErfahrene Festool Servicetechniker\nOriginal-Ersatzteile\nRundum-Check mit elektrischer Sicherheitsprüfung</string>
+    <string name="service_repair_order_repair">Reparatur beauftragen</string>
+    <string name="service_repair_dialog_title">Online-Beauftragung</string>
+    <string name="service_repair_dialog_option_tool_from_app">Werkzeug aus dieser App</string>
+    <string name="service_repair_dialog_option_other_tool">Anderes Werkzeug</string>
+    <string name="service_repair_tools_choice_list_title">Reparaturauftrag</string>
+    <string name="service_repair_tools_choice_list_subtitle">Werkzeug auswählen</string>
+    <string name="service_terms">* Garantie all-inclusive gilt für alle innerhalb von 30 Tagen nach dem Kauf registrierten Maschinen, die ab dem 02.04.2013 gekauft worden sind. Mehr Informationen und die Servicebedingungen finden Sie unter %1$s\n\n** „Rundum-Reparatur gratis“ gilt nicht für Beschädigungen von Verbrauchsmaterial und Zubehör, bei unsachgemäßem Gebrauch, Schäden durch Verwendung von nicht originalen Zubehör- oder Ersatzteilen, sowie im Falle von selbst zerlegten Werkzeugen oder kontinuierlich stark verschleißendem Gebrauch.</string>
+    <string name="service_log_in_alert">Sie müssen für diese Funktion angemeldet sein</string>
+
+    <!-- Apps -->
+    <string name="apps_consumables_title">Order App</string>
+    <string name="apps_consumables_description">Zubehör und Verbrauchsmaterial einfach, verständlich und übersichtlich über verschiedene Wege finden, verwalten, Einkaufslisten erstellen und diese an Händler übermitteln.</string>
+    <string name="apps_open_consumables">ÖFFNEN</string>
+    <string name="apps_install_consumables">App installieren</string>
+    <string name="apps_social_media_channels_heading">Folgen Sie uns in den Sozialen Netzwerken</string>
+
+    <!-- -->
+    <string name="add_device__enable_live_bluetooth">Live-Updates über Bluetooth®</string>
+    <string name="iotpanel__enable_description">Bei aktivierter Funktion kann die App jederzeit Standort- und Diagnosedaten eines Werkzeugs in Reichweite automatisch aktualisieren.</string>
+
+    <!-- BLE Problems-->
+    <string name="ble_problem__title">Problem</string>
+    <string name="ble_problem__device_not_found">Werkzeug nicht gefunden</string>
+
+    <string name="ble_problem__failed_to_enable_MODE_IOT">Konnte Live Update Funktion nicht aktivieren.</string>
+    <string name="ble_problem__failed_to_disable_MODE_IOT">Konnte Live Update Funktion nicht deaktivieren.</string>
+    <string name="ble_problem__userconfig">User Config konnte vom Device nicht geladen werden.</string>
+    <string name="ble_problem__iot">Problem beim aktivieren/deaktivieren der Live Update Funktion.</string>
+
+
+    <!-- Unknwown Device for those rare cases when the Device name cant get read -->
+    <string name="ble_problem__device_name_unknown">Unbekanntes Werkzeug</string>
+
+    <!-- Profile Fragment -->
+    <string name="login_login">Login</string>
+    <string name="login_logout">Logout</string>
+
+    <!-- Title Bottom Navigation -->
+    <string name="title_dealer_search">Händler</string>
+    <string name="title_service">Service</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_apps">Apps</string>
+    <string name="title_tools">Werkzeuge</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_step_one_title">Werkzeuge</string>
+    <string name="onboarding_step_one_image_text">Meine Werkzeuge</string>
+    <string name="onboarding_step_two_title">Festool SERVICE</string>
+    <string name="onboarding_step_two_image_text">Service</string>
+    <string name="onboarding_step_three_title">Händlersuche</string>
+    <string name="onboarding_step_three_image_text">Händler</string>
+    <string name="onboarding_step_four_title">Mehr Apps</string>
+    <string name="onboarding_step_four_image_text">Apps</string>
+    <string name="onboarding_step_one_message">Behalten Sie all Ihre Werkzeuge im Überblick.</string>
+    <string name="onboarding_step_two_message">Finden Sie Ihren Ansprechpartner oder nehmen Sie Kontakt zu uns auf.</string>
+    <string name="onboarding_step_three_message">Der schnellste Weg zu Ihrem favorisierten Händler.</string>
+    <string name="onboarding_step_four_message">Entdecken Sie die Festool Welt und weitere Festool Apps.</string>
+    <string name="onboarding_skip_button_title">Überspr.</string>
+    <string name="onboarding_next_button_title">Weiter</string>
+    <string name="onboarding_finished_button_title">Fertig</string>
+
+    <!-- permission dialog Bluetooth® related -->
+    <string name="missing_bluetooth_location_permission_dialog_title">Standortzugriff erforderlich</string>
+    <string name="missing_bluetooth_location_permission_dialog_text">Erlauben Sie der App Zugriff auf Ihren Standort, um die Kommunikation mit Ihren Bluetooth®-fähigen Festool Werkzeugen sicherzustellen sowie den Lagerort und zuletzt gespeicherten Standort dieser festzustellen.</string>
+    <string name="missing_bluetooth_location_permission_dialog_okbutton_text">Einstellungen öffnen</string>
+    <string name="missing_bluetooth_location_permission_dialog_okbutton_request_permission_text">Erlauben</string>
+    <string name="missing_bluetooth_location_permission_dialog_cancelbutton_text">Später</string>
+    <string name="location_services_disabled_dialog_title">Standortdienste deaktiviert</string>
+    <string name="location_services_disabled_dialog_text">Bitte aktivieren Sie die Standortdienste in den Einstellungen.</string>
+    <string name="location_services_disabled_dialog_okbutton_text">Einstellungen öffnen</string>
+    <string name="location_services_disabled_dialog_cancelbutton_text">Abbrechen</string>
+    <string name="scanner__missing_bluetooth_permission_dialog_title">Fehlende Berechtigungen</string>
+    <string name="scanner__missing_bluetooth_permission_dialog_okbutton_text">Ändern</string>
+    <string name="scanner__missing_bluetooth_permission_dialog_cancelbutton_text">Abbrechen</string>
+    <string name="scanner__missing_bluetooth_permission_dialog_text">Um die Bluetooth® Funktionalität nutzen zu können, geben Sie bitte der App die Zugriffsberechtigung. Mit Klick auf \'Ändern\' werden Sie dorthin geleitet.</string>
+
+    <!-- permission dialog camera related -->
+    <string name="scanner__missing_camera_permission_dialog_title">Fehlende Berechtigungen</string>
+    <string name="scanner__missing_camera_permission_dialog_okbutton_text">Ändern</string>
+    <string name="scanner__missing_camera_permission_dialog_cancelbutton_text">Abbrechen</string>
+    <string name="scanner__missing_camera_permission_dialog_text">Erlauben Sie, dass die Festool Work App auf die Kamera auf Ihrem Smartphone zugreifen darf.</string>
+
+    <string name="scanner_item_device_already_added">%1$s (Bereits hinzugefügt)</string>
+
+
+    <!--  Camera missing permission -->
+    <string name="camera_missing_permission_text">Erlauben Sie, dass die Festool Work App auf die Kamera auf Ihrem Smartphone zugreifen darf.</string>
+    <string name="camera_missing_permission_button">Aktivieren</string>
+    <string name="camera_missing_permission_title">Kamerazugriff verweigert</string>
+
+    <!--  Machine detail page -->
+    <string name="machine_detail_title">Details</string>
+    <string name="menu_option_360">360 Grad</string>
+    <string name="menu_option_delete">Entfernen</string>
+    <string name="detail_part_number_title">Teilenummer</string>
+    <string name="detail_serial_number_title">Seriennummer</string>
+    <string name="detail_warranty_number_title">Garantienummer</string>
+    <string name="detail_card_myfestool_title">MyFestool</string>
+    <string name="detail_card_service_title">Festool SERVICE</string>
+    <string name="detail_card_other_title">Weitere Inhalte</string>
+    <string name="detail_item_dealer_title">Händler</string>
+    <string name="detail_item_buy_date_title">Kaufdatum</string>
+    <string name="detail_item_remain_warranty_title">Garantie</string>
+    <string name="detail_item_documents_title">Broschüren</string>
+    <string name="detail_item_repair_title">Reparatur beauftragen</string>
+    <string name="detail_item_repair_subtitle">In Browser öffnen</string>
+    <string name="detail_item_certificate_title">Garantiezertifikat</string>
+    <string name="detail_item_certificate_subtitle">Erneut zusenden</string>
+    <string name="detail_item_videos_title">Videos</string>
+    <string name="detail_item_videos_subtitle">App starten</string>
+    <string name="detail_item_consumables_title">Order App</string>
+    <string name="detail_item_consumables_subtitle_not_installed">Im Play Store öffnen</string>
+    <string name="detail_item_consumables_subtitle_installed">App starten</string>
+    <string name="detail_item_consumables_error_sale_number">Zu diesem Werkzeug konnten keine Verbrauchsmaterialien gefunden werden.</string>
+    <string name="detail_item_website_title">festool.de</string>
+    <string name="detail_item_website_subtitle">Produktseite aufrufen</string>
+    <string name="detail_card_bluetooth_title">Bluetooth®</string>
+    <string name="detail_item_bluetooth_title">Bluetooth®</string>
+    <string name="detail_item_bluetooth_pair">Koppeln</string>
+    <string name="detail_item_update_title">Softwareupdate</string>
+    <string name="detail_item_remain_warranty_subtitle">%1$s %2$s</string>
+    <string name="detail_item_remain_warranty_subtitle_expired">%1$s (Abgelaufen)</string>
+    <string name="detail_item_bluetooth_subtitle_in_range">In Reichweite</string>
+    <string name="detail_item_bluetooth_subtitle_not_in_range">Nicht in Reichweite</string>
+    <string name="detail_item_bluetooth_subtitle_not_paired">Nicht gekoppelt</string>
+    <string name="detail_item_update_subtitle_available">Neue Version verfügbar</string>
+    <string name="detail_item_update_subtitle_not_available">Version aktuell</string>
+    <string name="detail_item_repair_confirm_message">Sie verlassen die Festool Work App und können Ihren Reparaturauftrag im Web Browser abschließen.</string>
+    <string name="detail_remain_warranty_calendar_title">%1$s Garantieende</string>
+    <string name="detail_remain_warranty_calendar_chooser">Werkzeug Garantieerinnerung</string>
+    <string name="detail_remain_warranty_calendar_error_no_app">Keine Kalender-App gefunden.</string>
+    <string name="detail_remain_warranty_calendar_error_expired">Die Garantiezeit ist abgelaufen.</string>
+    <string name="detail_battery_warning"><b>Achtung:</b> Diagnosedaten veraltet! Verbinden Sie Ihr Werkzeug mit der App, um die aktuellen Diagnosedaten des Werkzeugs zu erhalten.</string>
+    <string name="detail_battery_warning_update_for_iot">Update das Werkzeug und aktiviere den IoT Modus, um stets aktuelle Daten zu erhalten.</string>
+    <string name="detail_battery_warning_enable_iot">Aktiviere den IoT Modus, um stets aktuelle Daten zu erhalten.</string>
+    <string name="detail_blink">Blinken</string>
+    <string name="detail_information">Informationen</string>
+    <string name="detail_item_update_button">Update</string>
+    <string name="detail_battery_iot_title">Live-Updates über Bluetooth®</string>
+    <string name="detail_battery_iot_subtitle">Bei aktivierter Funktion kann die App jederzeit Standort- und Diagnosedaten eines Werkzeugs in Reichweite automatisch aktualisieren.</string>
+    <string name="detail_battery_temperature_subtitle">%1$s (%2$s)</string>
+    <string name="detail_battery_state_idle">Ungenutzt</string>
+    <string name="detail_battery_state_charge">Lädt …</string>
+    <string name="detail_battery_state_discharge">Im Einsatz</string>
+    <string name="detail_battery_state_unrecognized">Unerkannt</string>
+    <string name="detail_battery_temp_okay">Okay</string>
+    <string name="detail_battery_temp_max_discharge">Überhitzt</string>
+    <string name="detail_battery_temp_max_charge">Überhitzt</string>
+    <string name="detail_battery_temp_charge_warm">Warm</string>
+    <string name="detail_battery_temp_charge_cold">Kalt</string>
+    <string name="detail_battery_temp_min_charge">Zu kalt</string>
+
+    <string name="info_current_state_title">Aktueller Zustand</string>
+    <string name="info_warning_title_old_data">Diagnosedaten veraltet</string>
+    <string name="info_warning_message_old_data">Verbinden Sie Ihr Werkzeug mit der App, um die aktuellen Diagnosedaten des Werkzeugs zu erhalten.</string>
+    <string name="info_warning_message_old_data_update_for_iot">Update das Werkzeug und aktiviere den IoT Modus, um stets aktuelle Daten zu erhalten.</string>
+    <string name="info_warning_message_old_data_enable_iot">Aktiviere den IoT Modus, um stets aktuelle Daten zu erhalten.</string>
+    <string name="info_warning_title_no_data">Keine Diagnosedaten vorhanden</string>
+    <string name="info_warning_message_no_data">Verbinden Sie Ihr Werkzeug mit der App, um die aktuellen Diagnosedaten des Werkzeugs zu erhalten.</string>
+
+    <!-- Ct Compact-->
+    <string name="info_ct_compact_warning_title">Hinweis:&#160;</string>
+    <string name="info_ct_compact_error_failure">Nicht in Ordnung</string>
+    <string name="info_ct_compact_error_ok">In Ordnung</string>
+    <string name="info_ct_compact_air_power_title">Saugleistung</string>
+    <string name="info_ct_compact_sufficient">In Ordnung</string>
+    <string name="info_ct_compact_insufficient">Nicht ausreichend</string>
+    <string name="info_ct_compact_air_power_warning">Vor kurzem gab es ein Problem mit der Saugleistung.</string>
+    <string name="info_ct_compact_power_level_title">Saugstufe</string>
+    <string name="info_ct_compact_temperature_title">Temperatur</string>
+    <string name="info_ct_compact_temperature_warning">Vor kurzem gab es ein Problem mit der Temperatur.</string>
+    <string name="info_ct_compact_water_warning">Vor kurzem gab es ein Problem mit der Wasserstandsabschaltung.</string>
+    <string name="info_ct_compact_fuse_warning">Vor kurzem gab es ein Problem mit der Steckdosensicherung.</string>
+
+    <string name="detail_warranty_certificate_dialog_title">Garantiezertifikat</string>
+    <string name="detail_warranty_certificate_dialog_error_message">Beim Beantragen des Zertifikats ist ein Fehler aufgetreten.</string>
+    <string name="detail_warranty_certificate_dialog_success_message">Das Garantiezertifikat wurde erfolgreich beantragt und wird Ihnen innerhalb von 24 Stunden per E-Mail an Ihre MyFestool-Adresse zugesandt.</string>
+    <string name="detail_option_delete_confirm_message">Wenn Sie Entfernen drücken, wird das Werkzeug aus der App entfernt. Um es wieder der App hinzuzufügen, muss es erneut gekoppelt werden.</string>
+    <string name="detail_option_delete_confirm_title">Werkzeug entfernen?</string>
+
+    <!-- Battery Info page -->
+    <string name="batteryinfo_title">Akku-Information</string>
+    <string name="batteryinfo_item_level_title">Akku-Füllstand</string>
+    <string name="batteryinfo_item_temperature_title">Temperatur</string>
+    <string name="batteryinfo_statistics_title">Statistiken</string>
+    <string name="batteryinfo_guideline_title">Allgemeine Richtwerte</string>
+    <string name="batteryinfo_guideline_text">Lithium-Ionen-Akkupacks sollten nach 1.000 Ladezyklen noch etwa 70 bis 80 \% ihrer ursprünglichen Kapazität besitzen. Dieser Richtwert kann je nach verwendetem Werkzeuge, Alter des Akkupacks, Intensität der Nutzung sowie Art der Lagerung abweichen.</string>
+    <string name="batteryinfo_item_usage_title">Einschaltzyklen des Saugers</string>
+    <string name="batteryinfo_item_charging_title">Ladezyklen</string>
+    <string name="batteryinfo_item_overheat_title">Temperaturabschaltung</string>
+    <string name="batteryinfo_specification_title">Spezifikation</string>
+    <string name="batteryinfo_item_voltage_title">Spannung</string>
+    <string name="batteryinfo_item_capacity_title">Kapazität</string>
+    <string name="batteryinfo_guideline_button_text">Tipps zum Umgang mit Akkus</string>
+
+    <!-- Ct Compact Info page -->
+    <string name="ct_compact_info_title">Information</string>
+    <string name="ct_compact_item_suction_power">Saugleistung</string>
+    <string name="ct_compact_item_dust_class">Staubklasse</string>
+    <string name="ct_compact_item_hose_diameter_title">Schlauchdurchmesser (%1$s)</string>
+    <string name="ct_compact_item_hose_diameter_MAN">MAN</string>
+    <string name="ct_compact_item_hose_diameter_RFID">RFID</string>
+    <string name="ct_compact_item_hose_diameter">%1$dmm</string>
+    <string name="ct_compact_item_power_level">Saugstufe</string>
+    <string name="ct_compact_item_temperature">Temperatur</string>
+    <string name="ct_compact_item_water_shutdown">Wasserstandabschaltung</string>
+    <string name="ct_compact_item_socket_protection">Steckdosensicherung</string>
+
+    <!-- SAI completion page -->
+    <string name="sai_completion_message">Ihr Werkzeug wurde erfolgreich der App hinzugefügt. Es kann einige Minuten dauern, bis das Werkzeug in der App angezeigt wird.</string>
+    <string name="sai_completion_info">Für dieses Werkzeug wurde die Registrierung zur Garantie all-inclusive erfolgreich durchgeführt.</string>
+
+    <!-- Document overview page -->
+    <string name="document_overview_title">Dokumente</string>
+    <string name="document_title_local">Heruntergeladen: Lokal verfügbar</string>
+    <string name="document_title_online">Online verfügbar</string>
+    <string name="menu_option_document_download">Herunterladen</string>
+    <string name="menu_option_document_remove">Entfernen</string>
+    <string name="document_interrupt_error_title">Achtung</string>
+    <string name="document_interrupt_error_message">Beim Verlassen der Seite wird der Download vorzeitig beendet.</string>
+    <string name="document_interrupt_error_button_positive">Download beenden</string>
+    <string name="document_interrupt_error_button_negative">Abbrechen</string>
+
+    <!-- Firmware Update -->
+    <string name="firmwareupdate_title">Software-Update</string>
+    <string name="firmwareupdate_button_show_changelog">Update Beschreibungen anzeigen</string>
+    <string name="firmwareupdate_title_installed_version">Installierte Version</string>
+    <string name="firmwareupdate_title_newest_version">Neueste Version</string>
+    <string name="firmwareupdate_title_status">Status</string>
+    <string name="firmwareupdate_button_install_firmware">Software-Update installieren</string>
+    <string name="firmwareupdate_title_device_name">Update für %1$s</string>
+    <string name="firmwareupdate_confirmation_cancel_title">Software-Update wirklich schließen?</string>
+    <string name="firmwareupdate_confirmation_cancel_description">Durch das Schließen wird der aktuell laufende Installationsprozess abgebrochen. Das Werkzeug wird anschließend automatisch neugestartet. Dieser Vorgang dauert ungefähr eine Minute.</string>
+    <string name="firmwareupdate_confirmation_cancel_button_cancel">Software-Update schließen</string>
+    <string name="firmwareupdate_confirmation_cancel_button_continue">Installation fortsetzen</string>
+    <string name="firmwareupdate_error_connection_title">Verbindung fehlgeschlagen</string>
+    <string name="firmwareupdate_error_connection_button_confirm">Verstanden</string>
+    <string name="firmwareupdate_button_please_wait">Bitte warten…</string>
+    <string name="firmwareupdate_button_retry">Erneut versuchen</string>
+    <string name="firmwareupdate_status_loading">Suche Update</string>
+    <string name="firmwareupdate_button_uptodate">Version aktuell</string>
+    <string name="firmwareupdate_status_update_available">Update verfügbar</string>
+    <string name="firmwareupdate_button_close_update">Software-Update schließen</string>
+    <string name="firmwareupdate_button_no_update_information">Laden fehlgeschlagen</string>
+    <string name="firmwareupdate_button_install_version">Version %1$s installieren</string>
+    <string name="firmwareupdate_description_default">Die Software, die wir Ihnen hier zur Installation auf Ihrem Werkzeug anbieten, wird von Festool über einen eigenen Server bereitgestellt. Diese Software wird auf Ihrem Bluetooth® Werkzeug, das Sie ausgewählt haben, installiert. Jetzt Ihr Werkzeug einfach über die App updaten.</string>
+    <string name="firmwareupdate_description_bt_not_reachable">Bringen Sie Ihr Werkzeug in die Nähe des Smartphones und drücken Sie die Verbindungstaste an Ihrem Werkzeug drei Sekunden lang, bis die Anzeige blau pulsiert.</string>
+    <string name="firmware_release_notes_title">Update Beschreibungen</string>
+    <string name="firmwareupdate_button_bt_not_reachable">Werkzeug nicht erreichbar</string>
+    <string name="firmwareupdate_status_downloading">Update wird heruntergeladen \(%1$2.1f%%\)</string>
+    <string name="firmwareupdate_error_download">Download fehlgeschlagen</string>
+    <string name="firmwareupdate_status_dfu_transfer_progress">Update wird übertragen \(%1$2.1f%%\)</string>
+    <string name="firmwareupdate_status_dfu_installation">Update wird installiert</string>
+    <string name="firmwareupdate_status_dfu_error">Fehler beim Update \(Code: %1$d\)</string>
+    <string name="firmwareupdate_status_dfu_finishing">Installation wird überprüft</string>
+    <string name="firmwareupdate_status_installation">Update wird installiert</string>
+    <string name="firmwareupdate_status_installation_finished">Update erfolgreich</string>
+    <string name="firmwareupdate_status_updating_firmware_information">Update wird überprüft</string>
+    <string name="firmwareupdate_waiting_for_device">Warte auf Werkzeug</string>
+    <string name="firmwareupdate_status_enable_dfu_mode">Update-Modus wird aktiviert</string>
+    <string name="firmwareupdate_button_retry_installation">Update wiederholen</string>
+    <string name="firmwareupdate_notification_action_title">Anzeigen</string>
+
+    <!-- Battery Notification page -->
+    <string name="notification_title">Akku-Benachrichtigungen</string>
+    <string name="notification_info_beta_label">BETA</string>
+    <string name="notification_info_beta_title">Funktion in der Testphase</string>
+    <string name="notification_info_beta_message">Funktionen, die mit %1$s gekennzeichnet sind, befinden sich noch in der Testphase.</string>
+    <string name="notification_info_beta_rate_with_feedback">Bewerten Sie dieses Feature und geben uns gerne Feedback:</string>
+    <string name="notification_info_beta_rate_no_feedback">Bewerten Sie dieses Feature:</string>
+    <string name="notification_info_beta_feedback_sent_title">Feedback gesendet</string>
+    <string name="notification_info_beta_feedback_sent_message">Vielen Dank, dieses Feedback hilft uns dabei die App kontinuierlich zu verbessern.</string>
+    <string name="notification_info_beta_feedback_title">Feedback</string>
+    <string name="notification_permission_notification_title">Benachrichtigungen für diese App erlauben</string>
+    <string name="notification_permission_notification_text">Bitte öffnen Sie die Einstellungen und aktivieren Sie Benachrichtigungen für diese App.</string>
+    <string name="notification_permission_notification_button">Einstellungen öffnen</string>
+    <string name="notification_status_title">Status</string>
+    <string name="notification_item_temp_subtitle">Lassen Sie sich darüber informieren, ob für einen Ihrer Akkus die Gefahr ernsthafter Schäden durch oft auftretende Temperatur-Extrema besteht.</string>
+    <string name="notification_item_temp_title">Temperaturhinweise anzeigen</string>
+    <string name="notification_location_title">Standort</string>
+    <string name="notification_permission_location_title">Zugriff auf Standort erlauben</string>
+    <string name="notification_permission_location_subtitle">Bitte öffnen Sie die Einstellungen und erlauben Sie den Zugriff auf den Standort \"Immer\".</string>
+    <string name="notification_permission_location_button">Einstellungen öffnen</string>
+    <string name="notification_item_location_title">Lagerort</string>
+    <string name="notification_item_location_subtitle">Sie haben noch keinen Lagerort bestimmt.</string>
+    <string name="notification_item_location_subtitle_loading">Standort wird bestimmt…</string>
+    <string name="notification_item_forget_subtitle">Benachrichtigen, wenn Sie sich abseits des Lagerortes deutlich von der zuletzt registrierten Position des Akkus entfernen.</string>
+    <string name="notification_item_forget_title">Akku vergessen?</string>
+    <string name="notification_item_empty_view_subtitle">Benachrichtigen, wenn Sie sich vom Lagerort entfernen und die App dort leere Akkus gesehen hat.</string>
+    <string name="notification_item_empty_view_title">Leere Akkus am Lagerort vermeiden</string>
+    <string name="option_notification_location_help">Hilfe zu Lagerort</string>
+    <string name="notification_location_help_title">Lagerort definieren</string>
+    <string name="notification_location_help_text">
+        ● Den Lagerort Ihres Bluetooth®-fähigen Werkzeuges können Sie selbst anhand Ihrer GPS Position festlegen. Dies kann z.B. Ihre Werkstatt sein.
+		\n\n
+		● Wenn Sie den Lagerort verlassen und die Akkupacks leer sind, werden Sie benachrichtigt.
+		\n\n
+		● Wenn Sie am Lagerort sind und das Smartphone keinen Bluetooth® Kontakt mehr zu den Akkupacks hat, sendet Ihnen die App eine Mitteilung. Sie können dann unter „Letzter Kontakt“ auf einer Karte einsehen, wo der letzte Bluetooth® Kontakt zu den Akkupacks stattfand.
+		\n\n
+		● Die Funktion »Lagerort festlegen« kann nur dann verwendet werden, wenn die Akkupacks mit Ihrem Smartphone per Bluetooth® verbunden sind und Sie den Zugriff auf Ihren Standort per GPS freigegeben haben.
+    </string>
+    <string name="battery_heat_temp_notification_title">Temperatur-Warnung</string>
+    <string name="battery_heat_temp_notification_cold_text">Wir haben erkannt, dass Ihr Akku %1$s in letzter Zeit zu kalt wurde. Tippen Sie hier, um weitere Informationen zu bekommen.</string>
+    <string name="battery_heat_temp_notification_action_blink">Akku-Blinken</string>
+    <string name="battery_heat_temp_notification_action_info">Informationen</string>
+    <string name="battery_heat_temp_notification_hot_text">Wir haben erkannt, dass Ihr Akku %1$s in letzter Zeit überhitzte. Tippen Sie hier, um weitere Informationen zu bekommen.</string>
+    <string name="geofence_empty_battery_notification_title">Leere Akkus im Lager?</string>
+    <string name="geofence_empty_battery_notification_text">Ihr Smartphone hat registriert, dass Sie gerade den angegebenen Lagerort verlassen. Dort befinden sich aktuell leere Akkus.</string>
+    <string name="geofence_empty_battery_notification_action">App öffnen</string>
+    <string name="battery_tip_page_title">Tipps zum Umgang mit Akkus</string>
+    <string name="geofence_forgot_battery_notification_title">Akku vergessen?</string>
+    <string name="geofence_forgot_battery_notification_text">Ihr Smartphone hat registriert, dass Sie gerade einen länger besuchten Ort verlassen und einer Ihrer Akkus ist nicht mehr Reichweite.</string>
+    <string name="geofence_forgot_battery_notification_action">App öffnen</string>
+
+    <string name="enableiot_title">Software-Update für %1$s</string>
+    <string name="enableiot_success">Die Software Ihres Werkzeugs ist nun auf dem neusten Stand.</string>
+
+    <!-- dealer search-->
+    <string name="menu_option_location_search">Umgebungssuche</string>
+    <string name="menu_option_cancel_search">Schließen</string>
+    <string name="menu_option_show_list">Listenansicht</string>
+
+    <!-- tools location -->
+    <string name="title_tools_location">Letzter Kontakt</string>
+
+    <string name="snackbar_genericerror_retry_text">Es ist etwas schiefgelaufen. Bitte versuchen Sie es erneut.</string>
+
+    <string name="dialog_bluetooth_genericerror_title">Verstanden</string>
+    <string name="dialog_bluetooth_genericerror_text">Verstanden</string>
+    <string name="dialog_bluetooth_genericerror_acknowledge">Verstanden</string>
+
+    <string name="dialog_bluetooth_notreachable_title">Werkzeug nicht erreichbar</string>
+    <string name="dialog_bluetooth_notreachable_text">Bringen Sie Ihr Werkzeug in die Nähe des Smartphones und drücken Sie die Verbindungstaste an Ihrem Werkzeug drei Sekunden lang, bis die Anzeige blau pulsiert.</string>
+    <string name="dialog_bluetooth_notreachable_acknowledge">Verstanden</string>
+
+    <string name="dialog_bluetooth_disabled_settings">Einstellungen öffnen</string>
+    <string name="dialog_bluetooth_disabled_acknowledge">Verstanden</string>
+
+    <string name="dialog_bluetooth_invalidauth_title">Pairing nicht möglich</string>
+    <string name="dialog_bluetooth_invalidauth_text">Bitte entfernen Sie das Werkzeug in den Einstellungen Ihres Smartphones und drücken Sie auf den "Koppeln"-Button auf der Detailseite Ihres Bluetooth® Werkzeugs.</string>
+    <string name="dialog_bluetooth_invalidauth_settings">Einstellungen öffnen</string>
+    <string name="dialog_bluetooth_invalidauth_cancel">Abbrechen</string>
+
+    <string name="snackbar_bt_off_text">Bluetooth® ist deaktiviert. Bitte schalten Sie Bluetooth® ein.</string>
+    <string name="snackbar_bt_off_action">Abbrechen</string>
+
+    <!-- map -->
+    <string name="last_seen_date_format">dd.MM.yyyy\' um \'HH:mm \'Uhr\'</string>
+
+    <!-- pair bt device dialog -->
+    <string name="dialog_pair_bt_title">Werkzeug koppeln</string>
+    <string name="dialog_pair_bt_description">Drücken Sie die Verbindungstaste an Ihrem Bluetooth®-fähigen Festool Werkzeug drei Sekunden lang, bis die Bluetooth® Anzeige blau pulsiert.</string>
+
+    <!-- accept data protection screen -->
+    <string name="accept_data_protection_title">Der Schutz Ihrer Daten ist uns wichtig.</string>
+    <string name="accept_data_protection_message">Festool legt großen Wert auf den Schutz Ihrer Daten. Darum hat Festool seine Datenschutzerklärung überarbeitet. Sie enthält nun wichtige Informationen über Änderungen zum Umgang mit Ihren Daten nach der neuen EU-Datenschutz-Grundverordnung. Damit Sie fortfahren können, bitten wir Sie daher, sich diese Erklärung sorgfältig durchzulesen und ihr zuzustimmen. Markieren Sie dazu das Kontrollkästchen bei „Ich stimme der Datenschutzerklärung von Festool zu” und tippen Sie auf „Zustimmen und Weiter”.</string>
+    <string name="accept_data_protection_switch_text">Ich stimme der %1$s von Festool zu.</string>
+    <string name="accept_data_protection_button_text">Zustimmen und weiter</string>
+    <string name="accept_data_protection_link_text">Datenschutzerklärung</string>
+
+    <!-- scanner title -->
+    <string name="title_scanner">Scanner</string>
+
+    <!-- missing tools details strings -->
+    <string name="detail_battery_level_title">Akkustand</string>
+    <string name="detail_battery_status_title">Status</string>
+    <string name="detail_battery_temperature_title">Temperatur</string>
+    <string name="detail_last_contact_title">Letzter Kontakt</string>
+
+    <string name="firmwareupdate_text_device_numbers">T-Nr.: %1$s, S-Nr.: %2$s</string>
+
+    <string name="dialog_sai_placeholder_title">In Bearbeitung</string>
+    <string name="dialog_sai_placeholder_description">Die Online-Anmeldung für dieses Werkzeug ist noch nicht abgeschlossen. Es kann einige Minuten dauern, bis Sie es in der App verwenden können.</string>
+    <string name="dailog_sai_placeholder_confirm">Verstanden</string>
+
+    <!-- dealer overview page -->
+    <string name="dealer_overview_dealer_screen_title">Händlersuche</string>
+    <string name="dealer_overview_dealer_title">Händler finden</string>
+    <string name="dealer_overview_location_title">In der Umgebung</string>
+    <string name="dealer_overview_country_title">Land</string>
+    <string name="dealer_overview_mydealer_title">Meine Händler</string>
+    <string name="dealer_overview_no_mydealer_title">Noch keine Händler vorhanden</string>
+    <string name="dealer_overview_no_mydealer_subtitle">Hier werden Ihre favorisierten Händler angezeigt</string>
+    <string name="dealer_summary_distance_format">%1$.2f km</string>
+    <string name="menu_dealer_search">Suche</string>
+
+    <!-- dealer filter page -->
+    <string name="dealer_filter_countries_screen_title">Land</string>
+    <string name="dealer_filter_countries_preselect_title">Automatisch</string>
+    <string name="dealer_filter_countries_other_title">Weitere Länder</string>
+    <string name="dealer_filter_branches_services_screen_title">Filter</string>
+    <string name="dealer_filter_branches_title">Branche</string>
+    <string name="dealer_filter_services_title">Leistung</string>
+    <string name="dealer_filter_reset_button_title">Filter zurücksetzen</string>
+
+    <!-- dealer search -->
+    <string name="dealer_search_empty_message">Leider wurde kein Ergebnis gefunden. \nKorrigieren Sie Ihre Eingabe oder passen Sie Ihre Filter an.</string>
+
+    <!-- dealer text search -->
+    <string name="dealer_text_search_query_hint_format">in %1$s</string>
+    <string name="dealer_text_search_places_title">Orte</string>
+    <string name="dealer_text_search_dealers_title">Ergebnisse</string>
+    <string name="dealer_text_search_screen_title">Suche</string>
+    <string name="dealer_text_search_places_error_message">Die Ortssuche war nicht erfolgreich. Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind und versuchen Sie es erneut.</string>
+    <string name="dealer_text_search_dealers_error_message">Die Händlersuche war nicht erfolgreich. Bitte stellen Sie sicher, dass Sie mit dem Internet verbunden sind und versuchen Sie es erneut.</string>
+    <string name="dealer_search_vicinity_location_search_error_message">Ihre aktuelle Position konnte nicht ermittelt werden. Bitte stellen Sie sicher, dass GPS aktiviert ist und versuchen Sie es erneut.</string>
+    <string name="dealer_text_search_load_more_button_text">weitere Händler laden</string>
+
+    <!-- dealer vicinity search -->
+    <string name="dealer_vicinity_filter_action">Filter</string>
+
+    <!-- dealer details page -->
+    <string name="dealer_details_title">Details</string>
+    <string name="dealer_details_contact_section_title">Kontakt</string>
+    <string name="dealer_details_contact_phone">Telefon</string>
+    <string name="dealer_details_contact_fax">Fax</string>
+    <string name="dealer_details_contact_email">E-Mail</string>
+    <string name="dealer_details_contact_website">Website</string>
+    <string name="dealer_details_address_section_title">Adresse</string>
+    <string name="dealer_details_start_navigation_button_text">Navigation zum Händler</string>
+    <string name="dealer_details_menu_add_to_favorites">Hinzufügen</string>
+    <string name="dealer_details_menu_remove_from_favorites">Entfernen</string>
+
+    <!-- samsung bluetooth issue hints -->
+    <string name="scanner_bluetooth_issue_samsung">Kein Bluetooth®-fähiges Werkzeug gefunden? Siehe \"?\" für Lösungen.</string>
+    <string name="details_bluetoth_issue_samsung">Es kann keine Verbindung hergestellt werden? Tippen Sie auf \"Info\" für Lösungen</string>
+    <string name="details_bluetoth_issue_samsung_action">Info</string>
+    <string name="firmwareupdate_bluetoth_issue_samsung">Es kann keine Verbindung hergestellt werden? Tippen Sie auf \"Info\" für Lösungen</string>
+    <string name="firmwareupdate_bluetoth_issue_samsung_action">Info</string>
+
+    <!-- scanner add device error -->
+    <string name="scanner_add_device_error_title">Hinzufügen fehlgeschlagen</string>
+    <string name="scanner_add_device_error_message">Kommunikation mit dem Werkzeug ist fehlgeschlagen. Bitte versuchen Sie erneut, das Gerät hinzuzufügen.</string>
+
+    <!-- connection blocked error -->
+    <string name="error_connection_blocked_title">Verbindung blockiert</string>
+    <string name="error_connection_blocked_message">Die Verbindung mit dem Werkzeug ist gerade durch ein anderes Gerät blockiert. Bitte versuchen Sie es später erneut.</string>
+
+    <!-- Last Contact Ct Compact Hint -->
+    <string name="last_contact_hint_ctcompact_title">Letzter Kontakt des CT Compact</string>
+    <string name="last_contact_hint_ctcompact_text">Der Letzte Kontakt des CT Compact zeigt den Standort an, an dem der Sauger das letzte Mal mit dem Strom verbunden war.</string>
+</resources>
