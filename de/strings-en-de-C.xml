@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8'?><resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <string name="generic_number_percentage"></string>
+    <string name="generic_number_temperature"></string>
+    <string name="generic_number_voltage"></string>
+    <string name="generic_number_capacity"></string>
+    <string name="generic_number_file_size"></string>
+    <string name="generic_ok" tools:ignore="ButtonCase,Typos"></string>
+    <string name="generic_cancel"></string>
+    <string name="generic_remove"></string>
+
+    <string name="start_scan_for_ble_devices"></string>
+    <string name="scan_qr_code_description"></string>
+    <string name="bluetooth"></string>
+    <string name="manual_input"></string>
+    <string name="or"></string>
+    <string name="speichern"></string>
+    <string name="cancel"></string>
+    <string name="menu_option_flash"></string>
+    <string name="menu_option_help"></string><string name="bluetooth_tool_found_nr_devices"></string>
+    <string name="bluetooth_tool_scan_started"></string>
+    <string name="bluetooth_tool_disabled"></string>
+    <string name="bluetooth_tool_location_permission_missing"></string>
+    <string name="bluetooth_tool_bl_not_supported"></string><string name="dialog_blutooth_disabled__title"></string>
+    <string name="dialog_bluetooth_disabled__text"> </string>
+    
+    <string name="dialog_tool_has_bluetooth__title"></string>
+    <string name="dialog_tool_has_bluetooth__text"></string>
+    <string name="dialog_tool_has_bluetooth_bluetooth_off"></string>
+    <string name="dialog_tool_has_bluetooth__skip_connect"></string>
+    
+    <string name="dialog_tool_not_found__text"></string>
+    <string name="dialog_could_not_fetch_product_data"> </string>
+    
+    <string name="dialog_nonearbydevices__title"></string>
+    <string name="dialog_nonearbydevices__text"></string>
+    
+    <string name="dialog_manualinput__title"></string>
+    <string name="dialog_manualinput__partnr_hint_text"></string>
+    <string name="dialog_manualinput_serialnr_hint_text"></string>
+    <string name="dialog_manualinput_partnr_error"></string>
+    <string name="dialog_manualinput_serialnr_error"></string>
+    
+    <string name="dialog_bluethooth_missing__title"></string>
+    <string name="dialog_bluethooth_missing__text"></string>
+    
+    <string name="dialog_ble_missing__title"></string>
+    <string name="dialog_ble_missing__text"></string>
+    <string name="tooladded_tool_added_successfully"></string>
+    <string name="toolsadded_add_tool"></string>
+    <string name="tooladded_tool_added_successfully_info"></string>
+
+    <string name="tools_empty__empty_directory"></string>
+    <string name="tools_empty__description"></string>
+
+    <string name="tools_title_anonymous"></string>
+    <string name="tools_description_anonymous"></string>
+    <string name="tools_button_login"></string>
+    
+    <string name="tools__all_tools"></string>
+    <string name="tools__waranty"></string>
+    <string name="tools__dealer"></string>
+    <string name="tools__withbluetooth"></string>
+    <string name="tools__allwithbluetooth"></string>
+    <string name="tools__updates"></string>
+    <string name="tools__battery_level_and_status"></string>
+    <string name="tools__charge_status"></string>
+    <string name="tools__battery_charging_cycle"></string>
+    <string name="tools__last_contact"></string>
+    <string name="tools__notifications"></string>
+    
+    <string name="tools_list_section_title_without_category"></string>
+    <string name="tools_list_detail_master_product_id_text"></string>
+    <string name="tools_list_detail_serial_number_text"></string>
+    <string name="tools_list_section_title_warranty_less_than_60_days"></string>
+    <string name="tools_list_section_title_warranty_this_year"></string>
+    <string name="tools_list_section_title_warranty_until_year"></string>
+    <string name="tools_list_section_title_warranty_expired"></string>
+    <string name="tools_list_section_title_bluetooth_in_range"></string>
+    <string name="tools_list_section_title_bluetooth_out_of_range"></string>
+    <string name="tools_list_section_title_bluetooth_not_bonded"></string>
+    <string name="tools_list_section_title_bluetooth_update_available"></string>
+    <string name="tools_list_section_title_bluetooth_update_not_necessary"></string>
+    <string name="tools_list_section_title_charge_cycles_more_than"></string>
+    <string name="tools_list_section_title_charge_cycles_less_than"></string>
+    <string name="tools_list_section_title_info"></string>
+    <string name="tools_list_info_item_title_service"></string>
+    <string name="tools_list_info_item_title_bluetooth_pairing"></string>
+    <string name="tools_list_info_item_title_battery_handling_tips"></string>
+    <string name="tools_list_info_item_title_battery_correct_charging"></string>
+    <string name="tools_list_popup_menu_blink"></string>
+    
+    <string name="bottomnavigation_option_tools"></string>
+    <string name="bottomnavigation_option_service"></string>
+    <string name="bottomnavigation_option_dealer_search"></string>
+    <string name="bottomnavigation_option_apps"></string>
+    <string name="bottomnavigation_option_profile"></string><string name="generic_error_title"></string>
+    <string name="generic_error_message_login"> </string>
+    <string name="generic_error_message_loading_failed"> </string>
+    <string name="generic_error_message_upload_failed"> </string>
+    <string name="generic_error_message_delete_failed">  </string>
+    <string name="generic_error_message_operation_failed">  </string>
+
+    <string name="error_button_confirm_not_valid_tool"></string>
+    <string name="error_message_not_valid_tool"></string>
+
+    <string name="error_button_confirm_already_registered"></string>
+    <string name="scanner_main_alreadyAddedToolDialog_message"></string><string name="localization_title"></string>
+    <string name="localization_message"></string>
+    <string name="localization_cultures_spinner_title"></string>
+    <string name="localization_confirm_button_title"></string><string name="login_title"></string>
+    <string name="login_message"> </string>
+    <string name="login_login_button_title"></string>
+    <string name="login_no_login_button_title"></string>
+    <string name="login_register_button_title"></string>
+    <string name="login_firebase_data_migration_dialog_title"></string>
+    <string name="login_firebase_data_migration_dialog_message"></string>
+    <string name="login_firebase_data_migration_dialog_positive_button"></string>
+    <string name="login_firebase_data_migration_dialog_negative_button"></string>
+    <string name="login_account_locale_overwritten_dialog_title"></string>
+    <string name="login_account_locale_overwritten_dialog_message"></string>
+    <string name="login_locale_not_supported_message"></string>
+    <string name="profile_myprofile"></string>
+    <string name="profile_myfestool"></string>
+    <string name="profile_login"></string>
+    <string name="profile_popup_menu_perform_logout"></string>
+    <string name="profile_popup_menu_open_user_account"></string>
+    <string name="profile_login_info"></string>
+    <string name="profile_login_title"></string>
+    <string name="profile_information"></string>
+    <string name="profile_contact"></string>
+    <string name="profile_imprint"></string>
+    <string name="profile_privacy"></string>
+    <string name="profile_terms_of_service"></string>
+    <string name="profile_terms_of_use"></string>
+    <string name="profile_open_source_libraries"></string>
+    <string name="profile_tracking_heading"></string>
+    <string name="profile_send_tracking"> </string>
+    <string name="registration_confirmation_title"></string>
+    <string name="registration_confirmation_message"></string><string name="service_contactdata"></string>
+    <string name="service_contactdata_title"></string>
+    <string name="service_contactdata_description"> </string>
+    <string name="service_contactdata_call_or_mail"></string>
+    <string name="service_contactformular"></string>
+    <string name="service_contactformular_title"></string>
+    <string name="service_contactformular_description"></string>
+    <string name="service_contactformular_call"></string>
+    <string name="service_allinclusive"></string>
+    <string name="service_allinclusive_title"></string>
+    <string name="service_allinclusive_description"></string>
+    <string name="service_allinclusive_add_tool"></string>
+    <string name="service_repair"></string>
+    <string name="service_repair_title"></string>
+    <string name="service_repair_description"></string>
+    <string name="service_repair_order_repair"></string>
+    <string name="service_repair_dialog_title"></string>
+    <string name="service_repair_dialog_option_tool_from_app"></string>
+    <string name="service_repair_dialog_option_other_tool"></string>
+    <string name="service_repair_tools_choice_list_title"></string>
+    <string name="service_repair_tools_choice_list_subtitle"></string>
+    <string name="service_terms"> </string>
+    <string name="service_log_in_alert"></string><string name="apps_consumables_title"></string>
+    <string name="apps_consumables_description"></string>
+    <string name="apps_open_consumables"></string>
+    <string name="apps_install_consumables"></string>
+    <string name="apps_social_media_channels_heading"></string><string name="add_device__enable_live_bluetooth"></string>
+    <string name="iotpanel__enable_description"></string><string name="ble_problem__title"></string>
+    <string name="ble_problem__device_not_found"></string>
+
+    <string name="ble_problem__failed_to_enable_MODE_IOT"></string>
+    <string name="ble_problem__failed_to_disable_MODE_IOT"></string>
+    <string name="ble_problem__userconfig"></string>
+    <string name="ble_problem__iot"></string><string name="ble_problem__device_name_unknown"></string><string name="login_login"></string>
+    <string name="login_logout"></string><string name="title_dealer_search"></string>
+    <string name="title_service"></string>
+    <string name="title_profile"></string>
+    <string name="title_apps"></string>
+    <string name="title_tools"></string><string name="onboarding_step_one_title"></string>
+    <string name="onboarding_step_one_image_text"></string>
+    <string name="onboarding_step_two_title"></string>
+    <string name="onboarding_step_two_image_text"></string>
+    <string name="onboarding_step_three_title"></string>
+    <string name="onboarding_step_three_image_text"></string>
+    <string name="onboarding_step_four_title"></string>
+    <string name="onboarding_step_four_image_text"></string>
+    <string name="onboarding_step_one_message"></string>
+    <string name="onboarding_step_two_message"></string>
+    <string name="onboarding_step_three_message"></string>
+    <string name="onboarding_step_four_message"></string>
+    <string name="onboarding_skip_button_title"></string>
+    <string name="onboarding_next_button_title"></string>
+    <string name="onboarding_finished_button_title"></string><string name="missing_bluetooth_location_permission_dialog_title"></string>
+    <string name="missing_bluetooth_location_permission_dialog_text"></string>
+    <string name="missing_bluetooth_location_permission_dialog_okbutton_text"></string>
+    <string name="missing_bluetooth_location_permission_dialog_okbutton_request_permission_text"></string>
+    <string name="missing_bluetooth_location_permission_dialog_cancelbutton_text"></string>
+    <string name="location_services_disabled_dialog_title"></string>
+    <string name="location_services_disabled_dialog_text"></string>
+    <string name="location_services_disabled_dialog_okbutton_text"></string>
+    <string name="location_services_disabled_dialog_cancelbutton_text"></string>
+    <string name="scanner__missing_bluetooth_permission_dialog_title"></string>
+    <string name="scanner__missing_bluetooth_permission_dialog_okbutton_text"></string>
+    <string name="scanner__missing_bluetooth_permission_dialog_cancelbutton_text"></string>
+    <string name="scanner__missing_bluetooth_permission_dialog_text"> </string><string name="scanner__missing_camera_permission_dialog_title"></string>
+    <string name="scanner__missing_camera_permission_dialog_okbutton_text"></string>
+    <string name="scanner__missing_camera_permission_dialog_cancelbutton_text"></string>
+    <string name="scanner__missing_camera_permission_dialog_text"></string>
+
+    <string name="scanner_item_device_already_added"></string><string name="camera_missing_permission_text"></string>
+    <string name="camera_missing_permission_button"></string>
+    <string name="camera_missing_permission_title"></string><string name="machine_detail_title"></string>
+    <string name="menu_option_360"></string>
+    <string name="menu_option_delete"></string>
+    <string name="detail_part_number_title"></string>
+    <string name="detail_serial_number_title"></string>
+    <string name="detail_warranty_number_title"></string>
+    <string name="detail_card_myfestool_title"></string>
+    <string name="detail_card_service_title"></string>
+    <string name="detail_card_other_title"></string>
+    <string name="detail_item_dealer_title"></string>
+    <string name="detail_item_buy_date_title"></string>
+    <string name="detail_item_remain_warranty_title"></string>
+    <string name="detail_item_documents_title"></string>
+    <string name="detail_item_repair_title"></string>
+    <string name="detail_item_repair_subtitle"></string>
+    <string name="detail_item_certificate_title"></string>
+    <string name="detail_item_certificate_subtitle"></string>
+    <string name="detail_item_videos_title"></string>
+    <string name="detail_item_videos_subtitle"></string>
+    <string name="detail_item_consumables_title"></string>
+    <string name="detail_item_consumables_subtitle_not_installed"></string>
+    <string name="detail_item_consumables_subtitle_installed"></string>
+    <string name="detail_item_consumables_error_sale_number"></string>
+    <string name="detail_item_website_title"></string>
+    <string name="detail_item_website_subtitle"></string>
+    <string name="detail_card_bluetooth_title"></string>
+    <string name="detail_item_bluetooth_title"></string>
+    <string name="detail_item_bluetooth_pair"></string>
+    <string name="detail_item_update_title"></string>
+    <string name="detail_item_remain_warranty_subtitle"></string>
+    <string name="detail_item_remain_warranty_subtitle_expired"></string>
+    <string name="detail_item_bluetooth_subtitle_in_range"></string>
+    <string name="detail_item_bluetooth_subtitle_not_in_range"></string>
+    <string name="detail_item_bluetooth_subtitle_not_paired"></string>
+    <string name="detail_item_update_subtitle_available"></string>
+    <string name="detail_item_update_subtitle_not_available"></string>
+    <string name="detail_item_repair_confirm_message"></string>
+    <string name="detail_remain_warranty_calendar_title"></string>
+    <string name="detail_remain_warranty_calendar_chooser"></string>
+    <string name="detail_remain_warranty_calendar_error_no_app"></string>
+    <string name="detail_remain_warranty_calendar_error_expired"></string>
+    <string name="detail_battery_warning">  </string>
+    <string name="detail_battery_warning_update_for_iot"></string>
+    <string name="detail_battery_warning_enable_iot"></string>
+    <string name="detail_blink"></string>
+    <string name="detail_information"></string>
+    <string name="detail_item_update_button"></string>
+    <string name="detail_battery_iot_title"></string>
+    <string name="detail_battery_iot_subtitle"></string>
+    <string name="detail_battery_temperature_subtitle"></string>
+    <string name="detail_battery_state_idle"></string>
+    <string name="detail_battery_state_charge"></string>
+    <string name="detail_battery_state_discharge"></string>
+    <string name="detail_battery_state_unrecognized"></string>
+    <string name="detail_battery_temp_okay"></string>
+    <string name="detail_battery_temp_max_discharge"></string>
+    <string name="detail_battery_temp_max_charge"></string>
+    <string name="detail_battery_temp_charge_warm"></string>
+    <string name="detail_battery_temp_charge_cold"></string>
+    <string name="detail_battery_temp_min_charge"></string>
+
+    <string name="info_current_state_title"></string>
+    <string name="info_warning_title_old_data"></string>
+    <string name="info_warning_message_old_data"></string>
+    <string name="info_warning_message_old_data_update_for_iot"></string>
+    <string name="info_warning_message_old_data_enable_iot"></string>
+    <string name="info_warning_title_no_data"></string>
+    <string name="info_warning_message_no_data"></string><string name="info_ct_compact_warning_title"> </string>
+    <string name="info_ct_compact_error_failure"></string>
+    <string name="info_ct_compact_error_ok"></string>
+    <string name="info_ct_compact_air_power_title"></string>
+    <string name="info_ct_compact_sufficient"></string>
+    <string name="info_ct_compact_insufficient"></string>
+    <string name="info_ct_compact_air_power_warning"></string>
+    <string name="info_ct_compact_power_level_title"></string>
+    <string name="info_ct_compact_temperature_title"></string>
+    <string name="info_ct_compact_temperature_warning"></string>
+    <string name="info_ct_compact_water_warning"></string>
+    <string name="info_ct_compact_fuse_warning"></string>
+
+    <string name="detail_warranty_certificate_dialog_title"></string>
+    <string name="detail_warranty_certificate_dialog_error_message"></string>
+    <string name="detail_warranty_certificate_dialog_success_message"></string>
+    <string name="detail_option_delete_confirm_message"> </string>
+    <string name="detail_option_delete_confirm_title"></string><string name="batteryinfo_title"></string>
+    <string name="batteryinfo_item_level_title"></string>
+    <string name="batteryinfo_item_temperature_title"></string>
+    <string name="batteryinfo_statistics_title"></string>
+    <string name="batteryinfo_guideline_title"></string>
+    <string name="batteryinfo_guideline_text"> </string>
+    <string name="batteryinfo_item_usage_title"></string>
+    <string name="batteryinfo_item_charging_title"></string>
+    <string name="batteryinfo_item_overheat_title"></string>
+    <string name="batteryinfo_specification_title"></string>
+    <string name="batteryinfo_item_voltage_title"></string>
+    <string name="batteryinfo_item_capacity_title"></string>
+    <string name="batteryinfo_guideline_button_text"></string><string name="ct_compact_info_title"></string>
+    <string name="ct_compact_item_suction_power"></string>
+    <string name="ct_compact_item_dust_class"></string>
+    <string name="ct_compact_item_hose_diameter_title"></string>
+    <string name="ct_compact_item_hose_diameter_MAN"></string>
+    <string name="ct_compact_item_hose_diameter_RFID"></string>
+    <string name="ct_compact_item_hose_diameter"></string>
+    <string name="ct_compact_item_power_level"></string>
+    <string name="ct_compact_item_temperature"></string>
+    <string name="ct_compact_item_water_shutdown"></string>
+    <string name="ct_compact_item_socket_protection"></string><string name="sai_completion_message"> </string>
+    <string name="sai_completion_info"></string><string name="document_overview_title"></string>
+    <string name="document_title_local"> </string>
+    <string name="document_title_online"></string>
+    <string name="menu_option_document_download"></string>
+    <string name="menu_option_document_remove"></string>
+    <string name="document_interrupt_error_title"></string>
+    <string name="document_interrupt_error_message"></string>
+    <string name="document_interrupt_error_button_positive"></string>
+    <string name="document_interrupt_error_button_negative"></string><string name="firmwareupdate_title"></string>
+    <string name="firmwareupdate_button_show_changelog"></string>
+    <string name="firmwareupdate_title_installed_version"></string>
+    <string name="firmwareupdate_title_newest_version"></string>
+    <string name="firmwareupdate_title_status"></string>
+    <string name="firmwareupdate_button_install_firmware"></string>
+    <string name="firmwareupdate_title_device_name"></string>
+    <string name="firmwareupdate_confirmation_cancel_title"></string>
+    <string name="firmwareupdate_confirmation_cancel_description">  </string>
+    <string name="firmwareupdate_confirmation_cancel_button_cancel"></string>
+    <string name="firmwareupdate_confirmation_cancel_button_continue"></string>
+    <string name="firmwareupdate_error_connection_title"></string>
+    <string name="firmwareupdate_error_connection_button_confirm"></string>
+    <string name="firmwareupdate_button_please_wait"></string>
+    <string name="firmwareupdate_button_retry"></string>
+    <string name="firmwareupdate_status_loading"></string>
+    <string name="firmwareupdate_button_uptodate"></string>
+    <string name="firmwareupdate_status_update_available"></string>
+    <string name="firmwareupdate_button_close_update"></string>
+    <string name="firmwareupdate_button_no_update_information"></string>
+    <string name="firmwareupdate_button_install_version"></string>
+    <string name="firmwareupdate_description_default">  </string>
+    <string name="firmwareupdate_description_bt_not_reachable"></string>
+    <string name="firmware_release_notes_title"></string>
+    <string name="firmwareupdate_button_bt_not_reachable"></string>
+    <string name="firmwareupdate_status_downloading"></string>
+    <string name="firmwareupdate_error_download"></string>
+    <string name="firmwareupdate_status_dfu_transfer_progress"></string>
+    <string name="firmwareupdate_status_dfu_installation"></string>
+    <string name="firmwareupdate_status_dfu_error"></string>
+    <string name="firmwareupdate_status_dfu_finishing"></string>
+    <string name="firmwareupdate_status_installation"></string>
+    <string name="firmwareupdate_status_installation_finished"></string>
+    <string name="firmwareupdate_status_updating_firmware_information"></string>
+    <string name="firmwareupdate_waiting_for_device"></string>
+    <string name="firmwareupdate_status_enable_dfu_mode"></string>
+    <string name="firmwareupdate_button_retry_installation"></string>
+    <string name="firmwareupdate_notification_action_title"></string><string name="notification_title"></string>
+    <string name="notification_info_beta_label"></string>
+    <string name="notification_info_beta_title"></string>
+    <string name="notification_info_beta_message"></string>
+    <string name="notification_info_beta_rate_with_feedback"></string>
+    <string name="notification_info_beta_rate_no_feedback"></string>
+    <string name="notification_info_beta_feedback_sent_title"></string>
+    <string name="notification_info_beta_feedback_sent_message"></string>
+    <string name="notification_info_beta_feedback_title"></string>
+    <string name="notification_permission_notification_title"></string>
+    <string name="notification_permission_notification_text"></string>
+    <string name="notification_permission_notification_button"></string>
+    <string name="notification_status_title"></string>
+    <string name="notification_item_temp_subtitle"></string>
+    <string name="notification_item_temp_title"></string>
+    <string name="notification_location_title"></string>
+    <string name="notification_permission_location_title"></string>
+    <string name="notification_permission_location_subtitle"></string>
+    <string name="notification_permission_location_button"></string>
+    <string name="notification_item_location_title"></string>
+    <string name="notification_item_location_subtitle"></string>
+    <string name="notification_item_location_subtitle_loading"></string>
+    <string name="notification_item_forget_subtitle"></string>
+    <string name="notification_item_forget_title"></string>
+    <string name="notification_item_empty_view_subtitle"></string>
+    <string name="notification_item_empty_view_title"></string>
+    <string name="option_notification_location_help"></string>
+    <string name="notification_location_help_title"></string>
+    <string name="notification_location_help_text">   </string>
+    <string name="battery_heat_temp_notification_title"></string>
+    <string name="battery_heat_temp_notification_cold_text"> </string>
+    <string name="battery_heat_temp_notification_action_blink"></string>
+    <string name="battery_heat_temp_notification_action_info"></string>
+    <string name="battery_heat_temp_notification_hot_text"> </string>
+    <string name="geofence_empty_battery_notification_title"></string>
+    <string name="geofence_empty_battery_notification_text"> </string>
+    <string name="geofence_empty_battery_notification_action"></string>
+    <string name="battery_tip_page_title"></string>
+    <string name="geofence_forgot_battery_notification_title"></string>
+    <string name="geofence_forgot_battery_notification_text"></string>
+    <string name="geofence_forgot_battery_notification_action"></string>
+
+    <string name="enableiot_title"></string>
+    <string name="enableiot_success"></string><string name="menu_option_location_search"></string>
+    <string name="menu_option_cancel_search"></string>
+    <string name="menu_option_show_list"></string><string name="title_tools_location"></string>
+
+    <string name="snackbar_genericerror_retry_text"> </string>
+
+    <string name="dialog_bluetooth_genericerror_title"></string>
+    <string name="dialog_bluetooth_genericerror_text"></string>
+    <string name="dialog_bluetooth_genericerror_acknowledge"></string>
+
+    <string name="dialog_bluetooth_notreachable_title"></string>
+    <string name="dialog_bluetooth_notreachable_text"></string>
+    <string name="dialog_bluetooth_notreachable_acknowledge"></string>
+
+    <string name="dialog_bluetooth_disabled_settings"></string>
+    <string name="dialog_bluetooth_disabled_acknowledge"></string>
+
+    <string name="dialog_bluetooth_invalidauth_title"></string>
+    <string name="dialog_bluetooth_invalidauth_text"></string>
+    <string name="dialog_bluetooth_invalidauth_settings"></string>
+    <string name="dialog_bluetooth_invalidauth_cancel"></string>
+
+    <string name="snackbar_bt_off_text"> </string>
+    <string name="snackbar_bt_off_action"></string><string name="last_seen_date_format"></string><string name="dialog_pair_bt_title"></string>
+    <string name="dialog_pair_bt_description"></string><string name="accept_data_protection_title"></string>
+    <string name="accept_data_protection_message">    </string>
+    <string name="accept_data_protection_switch_text"></string>
+    <string name="accept_data_protection_button_text"></string>
+    <string name="accept_data_protection_link_text"></string><string name="title_scanner"></string><string name="detail_battery_level_title"></string>
+    <string name="detail_battery_status_title"></string>
+    <string name="detail_battery_temperature_title"></string>
+    <string name="detail_last_contact_title"></string>
+
+    <string name="firmwareupdate_text_device_numbers"></string>
+
+    <string name="dialog_sai_placeholder_title"></string>
+    <string name="dialog_sai_placeholder_description"> </string>
+    <string name="dailog_sai_placeholder_confirm"></string><string name="dealer_overview_dealer_screen_title"></string>
+    <string name="dealer_overview_dealer_title"></string>
+    <string name="dealer_overview_location_title"></string>
+    <string name="dealer_overview_country_title"></string>
+    <string name="dealer_overview_mydealer_title"></string>
+    <string name="dealer_overview_no_mydealer_title"></string>
+    <string name="dealer_overview_no_mydealer_subtitle"></string>
+    <string name="dealer_summary_distance_format"></string>
+    <string name="menu_dealer_search"></string><string name="dealer_filter_countries_screen_title"></string>
+    <string name="dealer_filter_countries_preselect_title"></string>
+    <string name="dealer_filter_countries_other_title"></string>
+    <string name="dealer_filter_branches_services_screen_title"></string>
+    <string name="dealer_filter_branches_title"></string>
+    <string name="dealer_filter_services_title"></string>
+    <string name="dealer_filter_reset_button_title"></string><string name="dealer_search_empty_message"></string><string name="dealer_text_search_query_hint_format"></string>
+    <string name="dealer_text_search_places_title"></string>
+    <string name="dealer_text_search_dealers_title"></string>
+    <string name="dealer_text_search_screen_title"></string>
+    <string name="dealer_text_search_places_error_message"> </string>
+    <string name="dealer_text_search_dealers_error_message"> </string>
+    <string name="dealer_search_vicinity_location_search_error_message"> </string>
+    <string name="dealer_text_search_load_more_button_text"></string><string name="dealer_vicinity_filter_action"></string><string name="dealer_details_title"></string>
+    <string name="dealer_details_contact_section_title"></string>
+    <string name="dealer_details_contact_phone"></string>
+    <string name="dealer_details_contact_fax"></string>
+    <string name="dealer_details_contact_email"></string>
+    <string name="dealer_details_contact_website"></string>
+    <string name="dealer_details_address_section_title"></string>
+    <string name="dealer_details_start_navigation_button_text"></string>
+    <string name="dealer_details_menu_add_to_favorites"></string>
+    <string name="dealer_details_menu_remove_from_favorites"></string><string name="scanner_bluetooth_issue_samsung"> </string>
+    <string name="details_bluetoth_issue_samsung"> </string>
+    <string name="details_bluetoth_issue_samsung_action"></string>
+    <string name="firmwareupdate_bluetoth_issue_samsung"> </string>
+    <string name="firmwareupdate_bluetoth_issue_samsung_action"></string><string name="scanner_add_device_error_title"></string>
+    <string name="scanner_add_device_error_message"> </string><string name="error_connection_blocked_title"></string>
+    <string name="error_connection_blocked_message"> </string><string name="last_contact_hint_ctcompact_title"></string>
+    <string name="last_contact_hint_ctcompact_text"></string>
+</resources>
